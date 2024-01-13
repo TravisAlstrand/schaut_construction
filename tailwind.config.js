@@ -84,6 +84,9 @@ module.exports = {
         heading: ["Bebas Neue", "sans-serif"],
         standard: ["Arial", "sans-serif"],
       },
+      backgroundImage: {
+        woodTexture: "url('/textures/wood_grain_texture.png')",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

@@ -1,6 +1,9 @@
 export default function About() {
   return (
-    <section id="about" className="mb-16 px-4 text-center font-heading">
+    <section
+      id="about"
+      className="mb-16 px-4 text-center font-heading text-grayDark"
+    >
       <div className="mx-auto mb-4 w-2/3 border-b-2 border-grayDark">
         <h2 className="text-[44px]">About</h2>
       </div>
