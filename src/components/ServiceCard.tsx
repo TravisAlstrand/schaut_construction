@@ -11,7 +11,7 @@ export default function ServiceCard({
 }: ServiceDataProps) {
   return (
     <article className="bg-woodTexture relative mb-4 rounded-md bg-cover p-4 shadow-md">
-      <div className="absolute inset-0 z-20 bg-grayLight opacity-50"></div>
+      <div className="absolute inset-0 z-20 rounded-md bg-grayLight opacity-50"></div>
       <div className="relative z-30 opacity-100">
         <img
           src={serviceImgUrl}
