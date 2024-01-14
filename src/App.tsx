@@ -7,6 +7,7 @@ import About from "./components/page_sections/About";
 import Services from "./components/page_sections/Services";
 import Gallery from "./components/page_sections/Gallery";
 import Reviews from "./components/page_sections/Reviews";
+import Contact from "./components/page_sections/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Services />
       <Gallery />
       <Reviews />
+      <Contact />
     </>
   );
 }

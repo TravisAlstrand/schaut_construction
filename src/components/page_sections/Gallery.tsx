@@ -36,8 +36,8 @@ export default function Gallery() {
             );
           })}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className="left-1" />
+        <CarouselNext className="right-1" />
       </Carousel>
     </section>
   );
