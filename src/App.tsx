@@ -1,10 +1,11 @@
 import "./App.css";
 
 // Components
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Services from "./components/Services";
+import Header from "./components/page_sections/Header";
+import Hero from "./components/page_sections/Hero";
+import About from "./components/page_sections/About";
+import Services from "./components/page_sections/Services";
+import Gallery from "./components/page_sections/Gallery";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <About />
       <Services />
+      <Gallery />
     </>
   );
 }
