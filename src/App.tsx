@@ -8,6 +8,7 @@ import Services from "./components/page_sections/Services";
 import Gallery from "./components/page_sections/Gallery";
 import Reviews from "./components/page_sections/Reviews";
 import Contact from "./components/page_sections/Contact";
+import Footer from "./components/page_sections/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Gallery />
       <Reviews />
       <Contact />
+      <Footer />
     </>
   );
 }
