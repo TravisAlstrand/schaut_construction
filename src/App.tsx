@@ -6,6 +6,7 @@ import Hero from "./components/page_sections/Hero";
 import About from "./components/page_sections/About";
 import Services from "./components/page_sections/Services";
 import Gallery from "./components/page_sections/Gallery";
+import Reviews from "./components/page_sections/Reviews";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Services />
       <Gallery />
+      <Reviews />
     </>
   );
 }
