@@ -22,11 +22,12 @@ export default function Gallery() {
         }}
         plugins={[
           Autoplay({
-            delay: 10000,
+            delay: 6000,
           }),
         ]}
+        className="bg-grayDark"
       >
-        <CarouselContent>
+        <CarouselContent className="flex items-center">
           {images.map((image, index) => {
             return (
               <CarouselItem key={index}>
@@ -35,8 +36,8 @@ export default function Gallery() {
             );
           })}
         </CarouselContent>
-        <CarouselPrevious className="left-2" />
-        <CarouselNext className="right-2" />
+        <CarouselPrevious />
+        <CarouselNext />
       </Carousel>
     </section>
   );
