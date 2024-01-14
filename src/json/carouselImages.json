@@ -1,0 +1,36 @@
+{
+  "images": [
+    {
+      "imgAltText": "gazebo with outdoor kitchen",
+      "imgUrl": "/images/gazebo_kitchen.jpg"
+    },
+    {
+      "imgAltText": "completely remodeled bathroom",
+      "imgUrl": "/images/restroom.jpg"
+    },
+    {
+      "imgAltText": "large outdoor gazebo",
+      "imgUrl": "/images/gazebo.jpg"
+    },
+    {
+      "imgAltText": "accessory dwelling unity with skylights",
+      "imgUrl": "/images/skylit_room.jpg"
+    },
+    {
+      "imgAltText": "accessory dwelling unity with skylights 2nd angle",
+      "imgUrl": "/images/skylit_room2.jpg"
+    },
+    {
+      "imgAltText": "completely remodeled shower",
+      "imgUrl": "/images/shower.jpg"
+    },
+    {
+      "imgAltText": "large outdoor garage construction",
+      "imgUrl": "/images/barn.jpg"
+    },
+    {
+      "imgAltText": "outdoor stairs installed from second story to ground",
+      "imgUrl": "/images/exterior_stairs.jpg"
+    }
+  ]
+}
