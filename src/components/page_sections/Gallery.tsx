@@ -31,7 +31,11 @@ export default function Gallery() {
           {images.map((image, index) => {
             return (
               <CarouselItem key={index}>
-                <img src={image.imgUrl} alt={image.imgAltText} />
+                <img
+                  src={image.imgUrl}
+                  alt={image.imgAltText}
+                  className="rounded-md"
+                />
               </CarouselItem>
             );
           })}

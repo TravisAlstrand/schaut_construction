@@ -3,7 +3,7 @@ import hamburgerIcon from "/icons/bars-solid.svg";
 export default function Header() {
   return (
     <>
-      <header className="sticky left-0 top-0 z-50 flex items-center bg-grayDark px-8 shadow-xl">
+      <header className="border-grayDark-darker sticky left-0 top-0 z-50 flex items-center border-b-2 bg-grayDark px-8 shadow-xl">
         {/* empty left container */}
         <div className="flex-1"></div>
         {/* center logo container */}

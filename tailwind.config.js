@@ -53,6 +53,7 @@ module.exports = {
         },
         grayDark: {
           DEFAULT: "#333333",
+          darker: "#1f1f1f",
         },
         grayLight: {
           DEFAULT: "#686868",
