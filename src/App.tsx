@@ -1,4 +1,5 @@
 import "./App.css";
+import { Toaster } from "./components/ui/toaster";
 
 // Components
 import Header from "./components/page_sections/Header";
@@ -21,6 +22,7 @@ function App() {
       <Reviews />
       <Contact />
       <Footer />
+      <Toaster />
     </>
   );
 }

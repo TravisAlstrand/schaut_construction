@@ -63,6 +63,9 @@ module.exports = {
         orangeLink: {
           DEFAULT: "#B34700",
         },
+        errorColor: {
+          DEFAULT: "#EF4444",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

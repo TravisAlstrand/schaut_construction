@@ -10,7 +10,7 @@ export default function Contact() {
           Reach out to us for a personalized quote, any questions, or to share
           your experience with us
         </p>
-        <p className="mb-4">— we're here to help you every step of the way!</p>
+        <p className="mb-8">— we're here to help you every step of the way!</p>
       </div>
       <div>
         <ContactForm />
