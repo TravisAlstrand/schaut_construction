@@ -60,6 +60,9 @@ module.exports = {
         whiteLight: {
           DEFAULT: "#F2F2F2",
         },
+        orangeLink: {
+          DEFAULT: "#B34700",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

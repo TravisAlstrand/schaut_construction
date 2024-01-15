@@ -1,4 +1,5 @@
 import SectionHeading from "../SectionHeading";
+import ContactForm from "../ContactForm";
 
 export default function Contact() {
   return (
@@ -12,12 +13,26 @@ export default function Contact() {
         <p className="mb-4">— we're here to help you every step of the way!</p>
       </div>
       <div>
+        <ContactForm />
         <h3 className="mb-4 text-center font-heading text-3xl">
           Schaut Construction
         </h3>
         <div className="font-standard text-[15px]">
-          <p className="mb-2">PHONE: 707-355-2944</p>
-          <p className="mb-2">EMAIL: stephanie@schautconstruction.com</p>
+          <p className="mb-2">
+            PHONE:{" "}
+            <a href="tel:+1707-355-2944" className="text-orangeLink underline">
+              707-355-2944
+            </a>
+          </p>
+          <p className="mb-2">
+            EMAIL:{" "}
+            <a
+              href="mailto:stephanie@schautconstruction.com"
+              className="text-orangeLink underline"
+            >
+              stephanie@schautconstruction.com
+            </a>
+          </p>
           <p className="mb-2">LICENSE: #1027835</p>
         </div>
       </div>
