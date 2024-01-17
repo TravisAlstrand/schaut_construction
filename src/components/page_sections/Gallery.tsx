@@ -34,7 +34,7 @@ export default function Gallery() {
                 <img
                   src={image.imgUrl}
                   alt={image.imgAltText}
-                  className="rounded-md"
+                  className="mx-auto rounded-md"
                 />
               </CarouselItem>
             );

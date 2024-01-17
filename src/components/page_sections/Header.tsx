@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky left-0 top-0 z-50 flex h-[97px] w-full items-center border-b-2 border-grayDark-darker bg-grayDark px-8 shadow-xl">
+      <header className="sticky left-0 top-0 z-50 flex h-[97px] w-full items-center border-b-2 border-grayDark-darker bg-grayDark px-8 shadow-lg shadow-grayDark-darker">
         {/* empty left container */}
         <div className="flex-1"></div>
         {/* center logo container */}
