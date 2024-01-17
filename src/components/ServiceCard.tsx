@@ -12,7 +12,7 @@ export default function ServiceCard({
   serviceImgAlt,
 }: ServiceDataProps) {
   return (
-    <article className="relative mb-4 rounded-md border-2 border-grayDark-darker bg-woodTexture bg-cover p-4 shadow-lg shadow-grayDark-darker">
+    <article className="relative mb-4 rounded-md border-2 border-grayDark-darker bg-woodTexture bg-cover p-4 shadow-lg shadow-grayDark-darker sm:mx-auto sm:w-9/12">
       <div className="absolute inset-0 z-20 rounded-md bg-grayLight opacity-50"></div>
       <div className="relative z-30 opacity-100">
         <img

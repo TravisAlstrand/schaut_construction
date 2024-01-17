@@ -5,14 +5,14 @@ export default function Contact() {
   return (
     <section id="contact" className="mb-16 px-4 pt-16 text-grayDark">
       <SectionHeading headingTitle="Contact" headingColor="grayDark" />
-      <div className="text-center">
+      <div className="text-center sm:mx-auto sm:w-9/12">
         <p className="mb-4">
           Reach out to us for a personalized quote, any questions, or to share
           your experience with us
         </p>
         <p className="mb-8">— we're here to help you every step of the way!</p>
       </div>
-      <div>
+      <div className="sm:mx-auto sm:w-9/12">
         <ContactForm />
         <h3 className="mb-4 text-center font-heading text-3xl">
           Schaut Construction

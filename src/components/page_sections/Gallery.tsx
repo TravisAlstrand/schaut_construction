@@ -25,7 +25,7 @@ export default function Gallery() {
             delay: 6000,
           }),
         ]}
-        className="rounded-md bg-grayDark shadow-lg"
+        className="rounded-md bg-grayDark shadow-lg sm:mx-auto sm:w-9/12"
       >
         <CarouselContent className="flex items-center">
           {images.map((image, index) => {
@@ -40,8 +40,8 @@ export default function Gallery() {
             );
           })}
         </CarouselContent>
-        <CarouselPrevious className="-left-4 text-grayDark opacity-80" />
-        <CarouselNext className="-right-4 text-grayDark opacity-80" />
+        <CarouselPrevious className="-left-4 text-grayDark opacity-80 sm:-left-10 sm:bg-grayDark sm:text-whiteLight sm:opacity-100" />
+        <CarouselNext className="-right-4 text-grayDark opacity-80 sm:-right-10 sm:bg-grayDark sm:text-whiteLight sm:opacity-100" />
       </Carousel>
     </section>
   );
