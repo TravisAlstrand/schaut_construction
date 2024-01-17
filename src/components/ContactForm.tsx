@@ -13,7 +13,6 @@ import {
   Form,
   FormControl,
   FormDescription,
-  // FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -22,7 +21,7 @@ import {
 
 const formSchema = z.object({
   fullName: z.string().min(2, {
-    message: "Name must be at least two characters",
+    message: "Please enter your full name",
   }),
   email: z.string().email({
     message: "Must be a valid email address",
@@ -87,7 +86,7 @@ export default function ContactForm() {
               <FormControl>
                 <Input placeholder="Jane Doe" {...field} />
               </FormControl>
-              <FormMessage className="border-errorColor border-b-2 pb-2" />
+              <FormMessage className="border-b-2 border-errorColor pb-2" />
             </FormItem>
           )}
         />
@@ -100,7 +99,7 @@ export default function ContactForm() {
               <FormControl>
                 <Input placeholder="jane@example.com" {...field} />
               </FormControl>
-              <FormMessage className="border-errorColor border-b-2 pb-2" />
+              <FormMessage className="border-b-2 border-errorColor pb-2" />
             </FormItem>
           )}
         />
@@ -113,7 +112,7 @@ export default function ContactForm() {
               <FormControl>
                 <Input placeholder="530 555 1234" {...field} />
               </FormControl>
-              <FormMessage className="border-errorColor border-b-2 pb-2" />
+              <FormMessage className="border-b-2 border-errorColor pb-2" />
             </FormItem>
           )}
         />
@@ -126,7 +125,7 @@ export default function ContactForm() {
               <FormControl>
                 <Textarea placeholder="How can we help? ..." {...field} />
               </FormControl>
-              <FormMessage className="border-errorColor border-b-2 pb-2" />
+              <FormMessage className="border-b-2 border-errorColor pb-2" />
             </FormItem>
           )}
         />

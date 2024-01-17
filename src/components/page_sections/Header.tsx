@@ -1,9 +1,15 @@
+import { useState } from "react";
+
 import hamburgerIcon from "/icons/bars-solid.svg";
+import closeIcon from "/icons/xmark-solid.svg";
 
 export default function Header() {
+  //state of mobile nav menu
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
-      <header className="border-grayDark-darker sticky left-0 top-0 z-50 flex items-center border-b-2 bg-grayDark px-8 shadow-xl">
+      <header className="relative sticky left-0 top-0 z-50 flex h-[97px] items-center border-b-2 border-grayDark-darker bg-grayDark px-8 shadow-xl">
         {/* empty left container */}
         <div className="flex-1"></div>
         {/* center logo container */}
@@ -16,14 +22,58 @@ export default function Header() {
         </div>
         {/* right nav icon container */}
         <div className="flex flex-1 justify-end">
-          <button>
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            aria-label="Navigation Menu"
+            aria-expanded={isOpen}
+            aria-controls="mobileNav"
+          >
             <img
-              src={hamburgerIcon}
-              alt="Mobile navigation open icon"
+              src={isOpen ? closeIcon : hamburgerIcon}
+              alt={isOpen ? "close icon" : "open icon"}
               className="w-6"
             />
           </button>
         </div>
+        <nav
+          id="mobileNav"
+          aria-hidden={!isOpen}
+          className={`absolute left-0 top-[97px] z-50 w-full translate-x-full bg-grayDark pt-8 text-center font-heading text-3xl text-whiteLight underline transition-transform duration-300
+          ${isOpen ? "open" : ""}`}
+        >
+          <ul>
+            <li className="pb-8">
+              <a href="#" onClick={() => setIsOpen(!isOpen)}>
+                Home
+              </a>
+            </li>
+            <li className="pb-8">
+              <a href="#about" onClick={() => setIsOpen(!isOpen)}>
+                About
+              </a>
+            </li>
+            <li className="pb-8">
+              <a href="#services" onClick={() => setIsOpen(!isOpen)}>
+                Services
+              </a>
+            </li>
+            <li className="pb-8">
+              <a href="#gallery" onClick={() => setIsOpen(!isOpen)}>
+                Gallery
+              </a>
+            </li>
+            <li className="pb-8">
+              <a href="#reviews" onClick={() => setIsOpen(!isOpen)}>
+                Reviews
+              </a>
+            </li>
+            <li className="pb-8">
+              <a href="#contact" onClick={() => setIsOpen(!isOpen)}>
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
       </header>
     </>
   );
