@@ -6,31 +6,31 @@
     },
     {
       "imgAltText": "completely remodeled bathroom",
-      "imgUrl": "/images/restroom.jpg"
+      "imgUrl": "/images/small/restroom-800.jpg"
     },
     {
       "imgAltText": "large outdoor gazebo",
-      "imgUrl": "/images/gazebo.jpg"
+      "imgUrl": "/images/small/gazebo-800.jpg"
     },
     {
       "imgAltText": "accessory dwelling unity with skylights",
-      "imgUrl": "/images/skylit_room.jpg"
+      "imgUrl": "/images/small/skylit_room-800.jpg"
     },
     {
       "imgAltText": "accessory dwelling unity with skylights 2nd angle",
-      "imgUrl": "/images/skylit_room2.jpg"
+      "imgUrl": "/images/small/skylit_room2-800.jpg"
     },
     {
       "imgAltText": "completely remodeled shower",
-      "imgUrl": "/images/shower.jpg"
+      "imgUrl": "/images/small/shower-800.jpg"
     },
     {
       "imgAltText": "large outdoor garage construction",
-      "imgUrl": "/images/barn.jpg"
+      "imgUrl": "/images/small/barn-800.jpg"
     },
     {
       "imgAltText": "outdoor stairs installed from second story to ground",
-      "imgUrl": "/images/exterior_stairs.jpg"
+      "imgUrl": "/images/small/exterior_stairs-800.jpg"
     }
   ]
 }

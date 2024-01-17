@@ -3,27 +3,27 @@
     {
       "serviceTitle": "Kitchen and Bathroom Remodels",
       "serviceDescription": "Let us turn your dream kitchen and bathroom into a luxurious reality that reflects your style and needs.",
-      "serviceImgUrl": "/images/shower.jpg"
+      "serviceImgUrl": "/images/small/shower-800.jpg"
     },
     {
       "serviceTitle": "Decks and Gazebos",
       "serviceDescription": "Elevate your outdoor living with our custom-designed decks, crafted to blend seamlessly with your lifestyle and enhance your home's beauty.",
-      "serviceImgUrl": "/images/gazebo.jpg"
+      "serviceImgUrl": "/images/small/gazebo-800.jpg"
     },
     {
       "serviceTitle": "Accessory Dwelling Units",
       "serviceDescription": "Expand your home's potential with our Accessory Dwelling Units, offering versatile and stylish living spaces that provide comfort, privacy, and value.",
-      "serviceImgUrl": "/images/skylit_room.jpg"
+      "serviceImgUrl": "/images/small/skylit_room-800.jpg"
     },
     {
       "serviceTitle": "New Construction",
       "serviceDescription": "Let us craft the perfect space for you, turning your ideas into magnificent realities that stand the test of time.",
-      "serviceImgUrl": "/images/barn.jpg"
+      "serviceImgUrl": "/images/small/barn-800.jpg"
     },
     {
       "serviceTitle": "Dry Rot Repair",
       "serviceDescription": "Trust in our skilled craftsmanship to meticulously eradicate damage and fortify your home against the elements, preserving its beauty and strength for years to come.",
-      "serviceImgUrl": "/images/exterior_stairs.jpg"
+      "serviceImgUrl": "/images/small/exterior_stairs-800.jpg"
     }
   ]
 }
