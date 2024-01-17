@@ -15,6 +15,7 @@ export default function Services() {
             serviceTitle={service.serviceTitle}
             serviceDescription={service.serviceDescription}
             serviceImgUrl={service.serviceImgUrl}
+            serviceImgAlt={service.serviceImgAlt}
             key={index}
           />
         );
