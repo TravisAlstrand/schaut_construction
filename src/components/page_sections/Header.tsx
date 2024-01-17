@@ -38,7 +38,7 @@ export default function Header() {
         <nav
           id="mobileNav"
           aria-hidden={!isOpen}
-          className={`absolute left-0 top-[97px] z-50 w-full translate-x-full bg-grayDark pt-8 text-center font-heading text-3xl text-whiteLight underline transition-transform duration-300
+          className={`transform-[visibility] invisible absolute left-0 top-[97px] z-50 w-full bg-grayDark pt-8 text-center font-heading text-3xl text-whiteLight underline opacity-0 transition-opacity duration-300
           ${isOpen ? "open" : ""}`}
         >
           <ul>

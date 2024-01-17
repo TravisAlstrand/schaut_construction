@@ -76,15 +76,18 @@
 }
 
 html {
-  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
 body {
   background-color: #f2f2f2;
-  overflow-x: hidden;
 }
 
 nav.open {
-  transform: translateX(0%);
+  visibility: visible;
+  opacity: 1;
+}
+
+:target {
+  scroll-margin-top: 97px;
 }
