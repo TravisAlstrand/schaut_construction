@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute left-0 top-0 flex h-full w-full items-center justify-center">
         <div className="mx-4 text-center font-heading text-[44px] text-whiteLight">
           <div className="rounded-md border-2 border-whiteLight">
-            <h1 className="px-6 py-4">Schaut Construction</h1>
+            <h1 className="px-6 py-4 md:text-6xl">Schaut Construction</h1>
           </div>
         </div>
       </div>

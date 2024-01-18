@@ -25,7 +25,7 @@ export default function Gallery() {
             delay: 6000,
           }),
         ]}
-        className="rounded-md bg-grayDark shadow-lg sm:mx-auto sm:w-9/12"
+        className="rounded-md bg-grayDark shadow-lg sm:mx-auto sm:w-9/12 md:max-w-[580px]"
       >
         <CarouselContent className="flex items-center">
           {images.map((image, index) => {

@@ -82,9 +82,13 @@ export default function ContactForm() {
           name="fullName"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Full Name</FormLabel>
+              <FormLabel className="md:text-base">Full Name</FormLabel>
               <FormControl>
-                <Input placeholder="Jane Doe" {...field} />
+                <Input
+                  className="md:text-base"
+                  placeholder="Jane Doe"
+                  {...field}
+                />
               </FormControl>
               <FormMessage className="border-b-2 border-errorColor pb-2" />
             </FormItem>
@@ -95,9 +99,13 @@ export default function ContactForm() {
           name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Email</FormLabel>
+              <FormLabel className="md:text-base">Email</FormLabel>
               <FormControl>
-                <Input placeholder="jane@example.com" {...field} />
+                <Input
+                  className="md:text-base"
+                  placeholder="jane@example.com"
+                  {...field}
+                />
               </FormControl>
               <FormMessage className="border-b-2 border-errorColor pb-2" />
             </FormItem>
@@ -108,9 +116,13 @@ export default function ContactForm() {
           name="phone"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Phone</FormLabel>
+              <FormLabel className="md:text-base">Phone</FormLabel>
               <FormControl>
-                <Input placeholder="530 555 1234" {...field} />
+                <Input
+                  className="md:text-base"
+                  placeholder="530 555 1234"
+                  {...field}
+                />
               </FormControl>
               <FormMessage className="border-b-2 border-errorColor pb-2" />
             </FormItem>
@@ -121,24 +133,34 @@ export default function ContactForm() {
           name="message"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Message</FormLabel>
+              <FormLabel className="md:text-base">Message</FormLabel>
               <FormControl>
-                <Textarea placeholder="How can we help? ..." {...field} />
+                <Textarea
+                  className="md:text-base"
+                  placeholder="How can we help? ..."
+                  {...field}
+                />
               </FormControl>
               <FormMessage className="border-b-2 border-errorColor pb-2" />
             </FormItem>
           )}
         />
-        <FormDescription className="text-center text-grayDark opacity-80">
+        <FormDescription className="text-center text-grayDark opacity-80 md:text-base">
           This form will directly email us.
         </FormDescription>
         {sendingEmail ? (
-          <Button disabled className="w-full bg-grayDark text-whiteLight">
+          <Button
+            disabled
+            className="w-full bg-grayDark text-whiteLight md:text-base"
+          >
             <Loader2 className="mr-2 h-4 w-4 animate-spin" />
             Please wait...
           </Button>
         ) : (
-          <Button type="submit" className="w-full bg-grayDark text-whiteLight">
+          <Button
+            type="submit"
+            className="w-full bg-grayDark text-whiteLight md:text-base"
+          >
             Submit
           </Button>
         )}

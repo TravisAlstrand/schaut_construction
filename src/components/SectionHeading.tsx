@@ -9,9 +9,11 @@ export default function SectionHeading({
 }: HeadingProps) {
   return (
     <div
-      className={`mx-auto mb-8 w-2/3 border-b-2 border-${headingColor} text-center font-heading`}
+      className={`mx-auto mb-12 w-2/3 border-b-2 border-${headingColor} text-center font-heading`}
     >
-      <h2 className={`text-[44px] text-${headingColor}`}>{headingTitle}</h2>
+      <h2 className={`text-[44px] text-${headingColor} md:pb-6 md:text-6xl`}>
+        {headingTitle}
+      </h2>
     </div>
   );
 }

@@ -31,14 +31,14 @@ export default function Header() {
             <img
               src={isOpen ? closeIcon : hamburgerIcon}
               alt={isOpen ? "close icon" : "open icon"}
-              className="w-6"
+              className="w-7"
             />
           </button>
         </div>
         <nav
           id="mobileNav"
           aria-hidden={!isOpen}
-          className={`transform-[visibility] invisible absolute left-0 top-[97px] z-50 w-full bg-grayDark pt-8 text-center font-heading text-3xl text-whiteLight underline opacity-0 transition-opacity duration-300
+          className={`transform-[visibility] invisible absolute left-0 top-[97px] z-50 w-full bg-grayDark pt-8 text-center font-heading text-3xl text-whiteLight underline opacity-0 transition-opacity duration-300 md:text-4xl
           ${isOpen ? "open" : ""}`}
         >
           <ul>

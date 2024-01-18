@@ -29,7 +29,7 @@ export default function Reviews() {
             delay: 6000,
           }),
         ]}
-        className="rounded-md bg-grayDark sm:mx-auto sm:w-9/12"
+        className="rounded-md bg-grayDark sm:mx-auto sm:w-9/12 md:max-w-[580px]"
       >
         <CarouselContent className="flex items-center">
           {reviews.map((review, index) => {

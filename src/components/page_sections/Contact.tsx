@@ -14,10 +14,10 @@ export default function Contact() {
       </div>
       <div className="sm:mx-auto sm:w-9/12">
         <ContactForm />
-        <h3 className="mb-4 text-center font-heading text-3xl">
+        <h3 className="mb-4 text-center font-heading text-3xl md:text-4xl">
           Schaut Construction
         </h3>
-        <div className="font-standard text-[15px]">
+        <div className="font-standard text-[15px] md:text-base">
           <p className="mb-2">
             PHONE:{" "}
             <a href="tel:+1707-355-2944" className="text-orangeLink underline">

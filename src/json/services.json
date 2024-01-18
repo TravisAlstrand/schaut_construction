@@ -1,13 +1,13 @@
 {
   "services": [
     {
-      "serviceTitle": "Kitchen and Bathroom Remodels",
+      "serviceTitle": "Kitchen & Bathroom Remodels",
       "serviceDescription": "Let us turn your dream kitchen and bathroom into a luxurious reality that reflects your style and needs.",
       "serviceImgUrl": "/images/small/shower-800.jpg",
       "serviceImgAlt": "fully remodeled shower"
     },
     {
-      "serviceTitle": "Decks and Gazebos",
+      "serviceTitle": "Decks & Gazebos",
       "serviceDescription": "Elevate your outdoor living with our custom-designed decks, crafted to blend seamlessly with your lifestyle and enhance your home's beauty.",
       "serviceImgUrl": "/images/small/gazebo-800.jpg",
       "serviceImgAlt": "custom gazebo"
