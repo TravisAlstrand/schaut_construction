@@ -9,19 +9,19 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky left-0 top-0 z-50 flex h-[97px] w-full items-center border-b-2 border-grayDark-darker bg-grayDark px-8 shadow-lg shadow-grayDark-darker">
+      <header className="sticky left-0 top-0 z-50 flex h-[97px] w-full items-center border-b-2 border-grayDark-darker bg-grayDark px-8 shadow-lg shadow-grayDark-darker lg:h-fit">
         {/* empty left container */}
-        <div className="flex-1"></div>
+        <div className="flex-1 lg:hidden"></div>
         {/* center logo container */}
-        <div className="flex flex-1 justify-center">
+        <div className="flex flex-1 justify-center lg:justify-start">
           <img
             src="/logo/logo_white.png"
             alt="Schaut Construction Logo"
-            className="w-16 py-4"
+            className="w-16 py-4 lg:w-20 lg:py-6"
           />
         </div>
         {/* right nav icon container */}
-        <div className="flex flex-1 justify-end">
+        <div className="flex flex-1 justify-end lg:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Navigation Menu"
@@ -69,6 +69,76 @@ export default function Header() {
             </li>
             <li className="pb-8">
               <a href="#contact" onClick={() => setIsOpen(!isOpen)}>
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav
+          id="desktopNav"
+          className="hidden font-heading text-3xl text-whiteLight lg:flex"
+        >
+          <ul>
+            <li className="pr-4">
+              <a
+                href="#"
+                className="pr-4 transition-colors hover:text-orangeLink"
+              >
+                Home
+              </a>
+              <span>|</span>
+            </li>
+          </ul>
+          <ul>
+            <li className="pr-4">
+              <a
+                href="#about"
+                className="pr-4 transition-colors hover:text-orangeLink"
+              >
+                About
+              </a>
+              <span>|</span>
+            </li>
+          </ul>
+          <ul>
+            <li className="pr-4">
+              <a
+                href="#services"
+                className="pr-4 transition-colors hover:text-orangeLink"
+              >
+                Services
+              </a>
+              <span>|</span>
+            </li>
+          </ul>
+          <ul>
+            <li className="pr-4">
+              <a
+                href="#gallery"
+                className="pr-4 transition-colors hover:text-orangeLink"
+              >
+                Gallery
+              </a>
+              <span>|</span>
+            </li>
+          </ul>
+          <ul>
+            <li className="pr-4">
+              <a
+                href="#reviews"
+                className="pr-4 transition-colors hover:text-orangeLink"
+              >
+                Reviews
+              </a>
+              <span>|</span>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a
+                href="#contact"
+                className="transition-colors hover:text-orangeLink"
+              >
                 Contact
               </a>
             </li>
