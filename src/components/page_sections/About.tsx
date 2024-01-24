@@ -4,10 +4,10 @@ export default function About() {
   return (
     <section
       id="about"
-      className="mb-16 px-4 text-center font-heading text-grayDark"
+      className="mb-16 px-4 text-center font-heading text-grayDark xl:mb-24"
     >
       <SectionHeading headingTitle="About" headingColor="grayDark" />
-      <div className="sm:mx-auto sm:w-9/12 md:text-2xl">
+      <div className="sm:mx-auto sm:w-9/12 md:text-2xl xl:text-3xl">
         <p className="mb-4 md:mb-6">
           We are a general building contractor serving the Nevada and Placer
           county areas.

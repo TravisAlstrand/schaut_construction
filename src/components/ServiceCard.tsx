@@ -24,11 +24,11 @@ export default function ServiceCard({
         </div>
         <div>
           <div className="mx-auto mb-4 w-11/12 border-b-2 border-whiteLight">
-            <h3 className="font-heading text-2xl md:text-3xl">
+            <h3 className="font-heading text-2xl md:text-3xl xl:text-4xl">
               {serviceTitle}
             </h3>
           </div>
-          <p className="font-standard text-[15px] md:text-base">
+          <p className="font-standard text-[15px] md:text-base xl:text-lg">
             {serviceDescription}
           </p>
         </div>

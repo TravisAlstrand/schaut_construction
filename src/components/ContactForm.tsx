@@ -82,10 +82,12 @@ export default function ContactForm() {
           name="fullName"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="md:text-base">Full Name</FormLabel>
+              <FormLabel className="md:text-base xl:text-lg">
+                Full Name
+              </FormLabel>
               <FormControl>
                 <Input
-                  className="md:text-base"
+                  className="md:text-base xl:text-lg"
                   placeholder="Jane Doe"
                   {...field}
                 />
@@ -99,10 +101,10 @@ export default function ContactForm() {
           name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="md:text-base">Email</FormLabel>
+              <FormLabel className="md:text-base xl:text-lg">Email</FormLabel>
               <FormControl>
                 <Input
-                  className="md:text-base"
+                  className="md:text-base xl:text-lg"
                   placeholder="jane@example.com"
                   {...field}
                 />
@@ -116,10 +118,10 @@ export default function ContactForm() {
           name="phone"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="md:text-base">Phone</FormLabel>
+              <FormLabel className="md:text-base xl:text-lg">Phone</FormLabel>
               <FormControl>
                 <Input
-                  className="md:text-base"
+                  className="md:text-bas xl:text-lg"
                   placeholder="530 555 1234"
                   {...field}
                 />
@@ -133,10 +135,10 @@ export default function ContactForm() {
           name="message"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="md:text-base">Message</FormLabel>
+              <FormLabel className="md:text-base xl:text-lg">Message</FormLabel>
               <FormControl>
                 <Textarea
-                  className="md:text-base"
+                  className="md:text-base xl:text-lg"
                   placeholder="How can we help? ..."
                   {...field}
                 />
@@ -145,13 +147,13 @@ export default function ContactForm() {
             </FormItem>
           )}
         />
-        <FormDescription className="text-center text-grayDark opacity-80 md:text-base">
+        <FormDescription className="text-center text-grayDark opacity-80 md:text-base xl:text-lg">
           This form will directly email us.
         </FormDescription>
         {sendingEmail ? (
           <Button
             disabled
-            className="w-full bg-grayDark text-whiteLight md:text-base"
+            className="w-full bg-grayDark text-whiteLight md:text-base xl:text-lg"
           >
             <Loader2 className="mr-2 h-4 w-4 animate-spin" />
             Please wait...
@@ -159,7 +161,7 @@ export default function ContactForm() {
         ) : (
           <Button
             type="submit"
-            className="w-full bg-grayDark text-whiteLight md:text-base"
+            className="w-full bg-grayDark text-whiteLight md:text-base xl:text-lg"
           >
             Submit
           </Button>
