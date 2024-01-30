@@ -18,12 +18,13 @@ export default function Contact() {
           Schaut Construction
         </h3>
         <div className="font-standard text-[15px] md:text-base xl:text-lg">
-          <p className="mb-2">
+          <p className="mb-2 lg:hidden">
             PHONE:{" "}
             <a href="tel:+1707-355-2944" className="text-orangeLink underline">
               707-355-2944
             </a>
           </p>
+          <p className="mb-2 hidden lg:flex">PHONE: 707-355-2944</p>
           <p className="mb-2">
             EMAIL:{" "}
             <a
