@@ -75,7 +75,7 @@ export default function ContactForm() {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="mb-8 space-y-8 border-y-2 border-grayDark py-8 font-standard text-grayDark"
+        className="mb-8 max-w-[1400px] space-y-8 border-y-2 border-grayDark py-8 font-standard text-grayDark"
       >
         <FormField
           control={form.control}

@@ -7,7 +7,7 @@ export default function About() {
       className="mb-16 px-4 text-center font-heading text-grayDark xl:mb-24"
     >
       <SectionHeading headingTitle="About" headingColor="grayDark" />
-      <div className="sm:mx-auto sm:w-9/12 md:text-2xl xl:text-3xl">
+      <div className="max-w-[1400px] sm:mx-auto sm:w-9/12 md:text-2xl xl:text-3xl">
         <p className="mb-4 md:mb-6">
           We are a general building contractor serving the Nevada and Placer
           county areas.
