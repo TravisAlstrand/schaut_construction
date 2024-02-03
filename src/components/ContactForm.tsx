@@ -53,7 +53,7 @@ export default function ContactForm() {
     setSendingEmail(true);
 
     await emailjs
-      .send("service_gzyji7g", "template_ahyqx1g", values, "6g0rq8vN720O74Ji5")
+      .send("service_n4ju0hr", "template_ahyqx1g", values, "6g0rq8vN720O74Ji5")
       .then(
         (result) => {
           if (result.text === "OK") {
